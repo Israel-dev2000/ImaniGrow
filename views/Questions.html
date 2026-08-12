@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" class="scroll-smooth">									
+		<!-- SECTION1 INTRO	SECTION1 INTRO    SECTION1 INTRO	SECTION1 INTRO	SECTION1 INTRO -->
+    <section id="section1" class="w-full h-screen flex-col gap-4 items-center flex bg-cover bg-center bg-no-repeat" style="background-image: url(../src/img/jesus.jpeg);">
+       <div id="retours" class="text-white flex border-5 border-white border-l-0 border-r-0 border-b-0 items-center justify-between md:w-127 w-80 md:h-20 h-15 backdrop-blur-2xl bg-black/40 rounded-2xl  md:mt-5 mt-5">
+        <div id="retour1" class="border-2 border-amber-400 rounded-[50%] md:w-[50px] md:h-[50px] w-[35px] h-[35px] flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="#f9f9f9" d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64" />
+	<path fill="#f9f9f9" d="m237.2 512l265.5 265.3a32 32 0 0 1-45.4 45.4l-288-288a32 32 0 0 1 0-45.4l288-288a32 32 0 1 1 45.4 45.4z" />
+</svg>
+</div>
+        <div id="length" class="w-[200px] h-[50px] flex items-center justify-center"></div>
+        <div id="retour" class="w-[100px] h-[50px] flex items-center justify-center "></div>
+       </div>
+            <div id="" class="text-white flex border-5 border-white border-l-0 relative flex-col border-r-0 border-b-0 items-center justify-center md:w-127 w-80 md:h-50 h-50 backdrop-blur-2xl bg-black/40 rounded-2xl md:mt-5 mt-7">
+                <div id="zonequestion" class="md:w-127 pl-3 w-80 h-[50px] flex pb-6 items-center justify-center"></div>
+                <div id="reference" class="md:w-127 text-amber-300 w-80 absolute bottom-0 h-[50px] flex items-center justify-center"></div>
+            </div>
+        <div id="" class="grid border-5 border-white border-l-0 border-r-0 border-t-0  bg-black/40  grid-cols-2 gap-3 grid-rows-2 w-[320px] h-[250px] backdrop-blur-2xl rounded-2xl p-4 md:w-[40%] md:h-[50vh]">
+            <div id="" class="reponse flex items-center justify-center rounded-2xl border-2 border-amber-400 border-l-0 border-r-0 backdrop-blur-3xl text-white bg-black/40  "></div>
+            <div id="" class="reponse flex items-center justify-center rounded-2xl border-2 border-amber-400 border-l-0 border-r-0 backdrop-blur-3xl text-white bg-black/40 "></div>
+            <div id="" class="reponse flex items-center justify-center rounded-2xl border-2 border-amber-400 border-l-0 border-r-0 backdrop-blur-3xl text-white bg-black/40 "></div>
+            <div id="" class="reponse flex items-center justify-center rounded-2xl border-2 border-amber-400 border-l-0 border-r-0 backdrop-blur-3xl text-white bg-black/40 "></div>
+        </div>     
+    </section>
+    <section id="section2" class="hidden w-full justify-center h-screen flex-col gap-4 items-center flex bg-cover bg-center bg-no-repeat" style="background-image: url(../src/img/jesus.jpeg);">
+        <div id="" class="bg-black/40 flex flex-col w-[320px] h-[250px] backdrop-blur-2xl rounded-2xl p-4 md:w-[40%] md:h-[50vh]">
+            <h1 id="titre" class="text-3xl mt-5 flex  w-full justify-center text-amber-500 font-bold "> 🎉Jeu Términé🎉</h1>
+            <p class="flex flex-col gap-2">
+                <p id="score" class="text-white flex justify-center mt-10"></p>
+                <p id="nombreqr" class="text-white flex justify-center mt-2"></p>
+                <p id="nombreqe" class="text-white flex justify-center mt-2"></p>
+                <p id="courage" class="text-white flex justify-center mt-5"></p>
+            </p>
+        </div>  
+        <div id="" class="bg-black/40 flex items-center justify-center w-[200px] h-[50px] text-white backdrop-blur-2xl text-[25px] rounded-2xl p-4 font-bold" onclick="rejouer()">Réjouer😊</div>   
+        
+    </section>
+
+    <script src="./Questions.js"></script>
+</body>
+</html>
