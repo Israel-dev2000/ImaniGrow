@@ -1,11 +1,11 @@
 
 let section2 = document.querySelector("#section2")
         //  btn de choix des langues
-let langue= document.querySelector("#langue")
-langue.addEventListener("click",()=>{
-    section2.style.display="none"
-    divlangue.style.display="flex"
-})
+// let langue= document.querySelector("#langue")
+// langue.addEventListener("click",()=>{
+//     section2.style.display="none"
+//     divlangue.style.display="flex"
+// })
                 // sortir dans les langues
 let retoursection2= document.querySelector("#retoursection2")
 retoursection2.addEventListener("click",()=>{
